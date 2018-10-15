@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/namaproducet"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Bango Bumbu Tahu Tempe Bacem"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nomorsertifikat"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="1273812731289"/>
+
+    <TextView
+        android:id="@+id/namaperusahaan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="PT Uniliver Indonesia tbk"/>
+
+    <TextView
+        android:id="@+id/masaberlaku"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:text="03 Mei 2019"/>
+</LinearLayout>
